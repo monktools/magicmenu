@@ -23,7 +23,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
     padding: 10px 20px;
     color: white;
     border-radius: 20px;
-    font: bold 14px"Helvetica Neue", Sans-Serif;
+    font: bold 14px;
     text-align: center;
 }
 .arrow {
@@ -88,6 +88,7 @@ html, body {
 body {
     background: rgba(30, 122, 167, 1.00);
     color: #fff;
+	font-family:"Helvetica Neue", Sans-Serif;
 }
 .cn-button {
     position: absolute;

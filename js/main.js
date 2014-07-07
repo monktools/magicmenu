@@ -17,9 +17,6 @@ $(document).ready(function (e) {
     //mostro tooltip con effetto
     $('#tooltip').show('fade', 'slow');
 
-    //nascondo dopo un totti
-    //$('#tooltip').delay(4000).hide('size', 'slow');
-
     //doppio cliclk ovunque
     $('body').dblclick(function () {
 

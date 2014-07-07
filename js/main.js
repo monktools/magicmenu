@@ -59,66 +59,6 @@ $(document).ready(function (e) {
     });
 
 
-    /*//click destro
-		
-		$('body').mousedown(function(event) {
-			switch (event.which) {
-				
-				case 2:
-				   //se è nascosto mostro, altrimenti nascondo
-					  $('#cn-button:hidden').stop(true, true).show('scale'),
-					  
-					//se è nascosto mostro, altrimenti nascondo
-						$('#cn-wrapper:hidden').stop(true, true).show( function(){
-							
-							$(this).addClass('opened-nav');
-						});
-					break;
-				case 3:
-				
-					 //se è nascosto mostro, altrimenti nascondo
-					  $('#cn-button:hidden').stop(true, true).show('scale'),
-					  
-					//se è nascosto mostro, altrimenti nascondo
-						$('#cn-wrapper:hidden').stop(true, true).show( function(){
-							
-							$(this).addClass('opened-nav');
-						});
-				
-						break;       
-					}
-				});	
-						
-				/*function makeDoubleRightClickHandler( handler ) {
-					var timeout = 0, clicked = false;
-					return function(e) {
-						e.preventDefault(); 
-						
-						if( clicked ) {
-							clearTimeout(timeout);
-							clicked = false;
-							return handler.apply( this, arguments );
-						}
-						else {
-							clicked = true;
-							timeout = setTimeout( function() {
-								clicked = false;
-							}, 300 );
-						}
-					};
-				}
-				
-				$(document).contextmenu( makeDoubleRightClickHandler( function(e) {
-					//se è nascosto mostro, altrimenti nascondo
-					  $('#cn-button:hidden').stop(true, true).show('scale'),
-					  
-					//se è nascosto mostro, altrimenti nascondo
-						$('#cn-wrapper:hidden').stop(true, true).show( function(){
-							
-							$(this).addClass('opened-nav');
-						});
-				}));*/
-
 });
 
 

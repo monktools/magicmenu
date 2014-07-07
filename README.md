@@ -15,3 +15,4 @@ Just use the right double click key and wooooo! :)
 
 monktools@gmail.com
 
+/* Thanks to SARA SOUEIDAN http://sarasoueidan.com/for CSS Animation */

@@ -47,12 +47,16 @@ $(document).ready(function (e) {
             $('#cn-button, #cn-wrapper').delay(500).hide('drop', 'slow');
 
         });
+		
     });
+	
     //scrollMenu
     $("#menu1").click(function () {
+		
         $('html, body').animate({
             scrollTop: $("#box1").offset().top
         }, 2000);
+		
     });
 
 });

@@ -78,10 +78,10 @@ html, body {
 }
 body {
     background-color: #5a85af;
-  background-image: url("http://www.lewuxian.com/weixinproxy.php/mmbiz.qpic.cn/mmbiz/uCicHqX3n5c28Kx9aNtnwicCQQwxVE1cAQOiaHqLKu06bs1wZpHCNiacYrnkQJiaibbv3fRiaxWibCwf1EQcXGsgvocW1w/0");
-  background-repeat: no-repeat;
-  background-position: center center;
-background-attachment:fixed;
+  	background-image: url("http://www.lewuxian.com/weixinproxy.php/mmbiz.qpic.cn/mmbiz/uCicHqX3n5c28Kx9aNtnwicCQQwxVE1cAQOiaHqLKu06bs1wZpHCNiacYrnkQJiaibbv3fRiaxWibCwf1EQcXGsgvocW1w/0");
+ 	background-repeat: no-repeat;
+ 	background-position: center center;
+	background-attachment:fixed;
     font-family: "Helvetica";
     color: #fff;
 }
@@ -98,7 +98,6 @@ background-attachment:fixed;
     border: none;
     border-radius: 50%;
     background: url("http://imagizer.imageshack.us/v2/150x100q90/850/h76m.png") no-repeat center center;
-    
     color: #52be7f;
     text-align: center;
     font-weight: 700;
